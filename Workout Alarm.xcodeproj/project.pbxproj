@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A273BFA22F91C980047482B /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A273BF922F91C980047482B /* SettingsVC.swift */; };
+		7A4E0E6522F7ABEB00B3CF0A /* bell.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 7A4E0E6422F7ABEB00B3CF0A /* bell.aiff */; };
+		7A4E0E6922F7C50B00B3CF0A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E0E6822F7C50B00B3CF0A /* Constants.swift */; };
+		7A68C4A922EAF94D007F8413 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A68C4A822EAF94D007F8413 /* KeyboardBoundView.swift */; };
+		7A8CE16822EC3E2A00B0416E /* CurrentSetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8CE16722EC3E2A00B0416E /* CurrentSetVC.swift */; };
+		7A8D864322EAE1F100A0084B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D864222EAE1F100A0084B /* AppDelegate.swift */; };
+		7A8D864522EAE1F100A0084B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D864422EAE1F100A0084B /* MainVC.swift */; };
+		7A8D864822EAE1F100A0084B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8D864622EAE1F100A0084B /* Main.storyboard */; };
+		7A8D864A22EAE1F200A0084B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8D864922EAE1F200A0084B /* Assets.xcassets */; };
+		7A8D864D22EAE1F200A0084B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8D864B22EAE1F200A0084B /* LaunchScreen.storyboard */; };
+		7A8D865522EAE2A900A0084B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D865422EAE2A900A0084B /* GradientView.swift */; };
+		7A8D865A22EAE6B000A0084B /* policesiren.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7A8D865922EAE6B000A0084B /* policesiren.wav */; };
+		7AB93EDF22F4F8FD00EA40EA /* policesiren.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 7AB93EDE22F4F8FD00EA40EA /* policesiren.aiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A273BF922F91C980047482B /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		7A4E0E6422F7ABEB00B3CF0A /* bell.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = bell.aiff; sourceTree = "<group>"; };
+		7A4E0E6822F7C50B00B3CF0A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7A68C4A822EAF94D007F8413 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		7A8CE16722EC3E2A00B0416E /* CurrentSetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSetVC.swift; sourceTree = "<group>"; };
+		7A8D863F22EAE1F100A0084B /* Workout Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8D864222EAE1F100A0084B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A8D864422EAE1F100A0084B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		7A8D864722EAE1F100A0084B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A8D864922EAE1F200A0084B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A8D864C22EAE1F200A0084B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A8D864E22EAE1F200A0084B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8D865422EAE2A900A0084B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		7A8D865922EAE6B000A0084B /* policesiren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = policesiren.wav; sourceTree = "<group>"; };
+		7AB93ED522F4189000EA40EA /* Workout Alarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Workout Alarm.entitlements"; sourceTree = "<group>"; };
+		7AB93ED722F4189000EA40EA /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		7AB93EDE22F4F8FD00EA40EA /* policesiren.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = policesiren.aiff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A8D863C22EAE1F100A0084B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A4E0E6A22F7E2EB00B3CF0A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7A8D865922EAE6B000A0084B /* policesiren.wav */,
+				7AB93EDE22F4F8FD00EA40EA /* policesiren.aiff */,
+				7A4E0E6422F7ABEB00B3CF0A /* bell.aiff */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		7A8D863622EAE1F100A0084B = {
+			isa = PBXGroup;
+			children = (
+				7A8D864122EAE1F100A0084B /* Workout Alarm */,
+				7A8D864022EAE1F100A0084B /* Products */,
+				7AB93ED622F4189000EA40EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A8D864022EAE1F100A0084B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A8D863F22EAE1F100A0084B /* Workout Alarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A8D864122EAE1F100A0084B /* Workout Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E0E6A22F7E2EB00B3CF0A /* Sounds */,
+				7AB93ED522F4189000EA40EA /* Workout Alarm.entitlements */,
+				7A8D865722EAE2FE00A0084B /* View */,
+				7A8D865622EAE2AF00A0084B /* Controller */,
+				7A8D864222EAE1F100A0084B /* AppDelegate.swift */,
+				7A8D864622EAE1F100A0084B /* Main.storyboard */,
+				7A8D864922EAE1F200A0084B /* Assets.xcassets */,
+				7A8D864B22EAE1F200A0084B /* LaunchScreen.storyboard */,
+				7A8D864E22EAE1F200A0084B /* Info.plist */,
+				7A4E0E6822F7C50B00B3CF0A /* Constants.swift */,
+			);
+			path = "Workout Alarm";
+			sourceTree = "<group>";
+		};
+		7A8D865622EAE2AF00A0084B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A8D864422EAE1F100A0084B /* MainVC.swift */,
+				7A8CE16722EC3E2A00B0416E /* CurrentSetVC.swift */,
+				7A273BF922F91C980047482B /* SettingsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A8D865722EAE2FE00A0084B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A8D865422EAE2A900A0084B /* GradientView.swift */,
+				7A68C4A822EAF94D007F8413 /* KeyboardBoundView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AB93ED622F4189000EA40EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AB93ED722F4189000EA40EA /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A8D863E22EAE1F100A0084B /* Workout Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A8D865122EAE1F200A0084B /* Build configuration list for PBXNativeTarget "Workout Alarm" */;
+			buildPhases = (
+				7A8D863B22EAE1F100A0084B /* Sources */,
+				7A8D863C22EAE1F100A0084B /* Frameworks */,
+				7A8D863D22EAE1F100A0084B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Workout Alarm";
+			productName = "Workout Alarm";
+			productReference = 7A8D863F22EAE1F100A0084B /* Workout Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A8D863722EAE1F100A0084B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Jessica Ho";
+				TargetAttributes = {
+					7A8D863E22EAE1F100A0084B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 7A8D863A22EAE1F100A0084B /* Build configuration list for PBXProject "Workout Alarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A8D863622EAE1F100A0084B;
+			productRefGroup = 7A8D864022EAE1F100A0084B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A8D863E22EAE1F100A0084B /* Workout Alarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A8D863D22EAE1F100A0084B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8D865A22EAE6B000A0084B /* policesiren.wav in Resources */,
+				7A8D864D22EAE1F200A0084B /* LaunchScreen.storyboard in Resources */,
+				7AB93EDF22F4F8FD00EA40EA /* policesiren.aiff in Resources */,
+				7A8D864A22EAE1F200A0084B /* Assets.xcassets in Resources */,
+				7A4E0E6522F7ABEB00B3CF0A /* bell.aiff in Resources */,
+				7A8D864822EAE1F100A0084B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A8D863B22EAE1F100A0084B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A8D864522EAE1F100A0084B /* MainVC.swift in Sources */,
+				7A8D864322EAE1F100A0084B /* AppDelegate.swift in Sources */,
+				7A68C4A922EAF94D007F8413 /* KeyboardBoundView.swift in Sources */,
+				7A8D865522EAE2A900A0084B /* GradientView.swift in Sources */,
+				7A8CE16822EC3E2A00B0416E /* CurrentSetVC.swift in Sources */,
+				7A4E0E6922F7C50B00B3CF0A /* Constants.swift in Sources */,
+				7A273BFA22F91C980047482B /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A8D864622EAE1F100A0084B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A8D864722EAE1F100A0084B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A8D864B22EAE1F200A0084B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A8D864C22EAE1F200A0084B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A8D864F22EAE1F200A0084B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A8D865022EAE1F200A0084B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A8D865222EAE1F200A0084B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Workout Alarm/Workout Alarm.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57JAWMPCLX;
+				INFOPLIST_FILE = "Workout Alarm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "funsies.Workout-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7A8D865322EAE1F200A0084B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Workout Alarm/Workout Alarm.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57JAWMPCLX;
+				INFOPLIST_FILE = "Workout Alarm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "funsies.Workout-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A8D863A22EAE1F100A0084B /* Build configuration list for PBXProject "Workout Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8D864F22EAE1F200A0084B /* Debug */,
+				7A8D865022EAE1F200A0084B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A8D865122EAE1F200A0084B /* Build configuration list for PBXNativeTarget "Workout Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A8D865222EAE1F200A0084B /* Debug */,
+				7A8D865322EAE1F200A0084B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A8D863722EAE1F100A0084B /* Project object */;
+}
